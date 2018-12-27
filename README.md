@@ -19,6 +19,8 @@ To quote http://notabs.org/fpuaccuracy/
  - xz
  - mpfr-devel
 
+On yum enabled system (Fedora,CentOS, RHEL) it can be installed with `yum -y install gcc gnuplot xz mpfr-devel`
+
 
 ### How to reproduce the results
  - Compile with `make`

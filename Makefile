@@ -2,8 +2,8 @@
 SHELL=/bin/bash
 JOBS=2
 
-fpuaccuracy: main.c
-	gcc -O3 -Wall -Wextra -o fpuaccuracy main.c -lmpfr -lm
+fpuaccuracy: fpuaccuracy.c
+	gcc -O3 -Wall -Wextra -o fpuaccuracy fpuaccuracy.c -lmpfr -lm
 all: fpuaccuracy commands
 	parallel -j2 --joblog parallel.log --progress --verbose < commands
 sin: fpuaccuracy commands

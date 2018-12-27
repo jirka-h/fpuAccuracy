@@ -2,7 +2,7 @@
 Copyright 2018 by Jirka Hladky <hladky DOT jiri AT gmail DOT com>
 Based on tools by Scott Duplichan from http://notabs.org/fpuaccuracy/
 Compile with GCC with
-gcc -O3 -Wall -Wextra -o fpuaccuracy main.c -lmpfr -lm
+gcc -O3 -Wall -Wextra -o fpuaccuracy fpuaccuracy.c -lmpfr -lm
 */
 
 //----------------------------------------------------------------------------
